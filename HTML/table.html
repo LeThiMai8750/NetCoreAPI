@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            font-family: 'Courier New', Courier, monospace;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td,th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bang </h1>
+    <table>
+        <tr>
+            <th>cot 1</th>
+            <th>cot 2</th>
+        </tr>
+        <tr>
+            <th>cot 1.1</th>
+            <th>cot 2.1</th>
+        </tr>
+    </table>
+
+    <h2>le thi mai - colspan</h2>
+    <table>
+        <tr>
+        <th colspan="2">cot gop chung </th>
+      
+        </tr>
+        <tr>
+            <th>cot 1.1</th>
+            <th>cot 2.1</th>
+        </tr>
+        <tr>
+            <th>cot 1.2</th>
+            <th>cot 2.2</th>
+        </tr>
+
+    </table>
+
+<h1>le thi mai - rowspan</h1>
+  <table>
+        <tr>
+            <th rowspan="2">hang gop chung </th>
+            <th>cot 2</th>
+        </tr>
+        <tr>
+            
+            <th>cot 2.1</th>
+        </tr>
+    </table>
+
+<h1>le thi mai - colgroup </h1>
+<table>
+    <colgroup>
+    <col span="1" style="background-color: pink;">
+    </colgroup>
+    <tr>
+            <th>cot 1</th>
+            <th>cot 2</th>
+        </tr>
+        <tr>
+            <th>cot 1.1</th>
+            <th>cot 2.1</th>
+        </tr>
+
+</table>
+
+<h2>le thi mai : visibility </h2>
+<table>
+    <colgroup>
+    <col span="1" style="background-color: pink;">
+    <col span="2">
+    <col span="3" style="visibility: collapse;"> 
+    </colgroup>
+    <tr>
+            <th>cot 1</th>
+            <th>cot 2</th>
+        </tr>
+        <tr>
+            <th>cot 1.1</th>
+            <th>cot 2.1</th>
+        </tr>
+        <tr><th>cot 1.2</th></tr>
+
+</table>
+
+</body>
+</html>

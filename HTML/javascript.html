@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>le thi mai </h1>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">click me le thi mai </button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        document.getElementById('demo1').innerHTML = "hello le thi mai ";
+    </script>
+    <h2>le thi mai </h2>
+    <button type="button" onclick="myfunc()">clickme</button>
+    <p id="demo2">noi dung chua thay doi</p>
+    <script>
+        function myfunc(){
+            document.getElementById('demo2').innerHTML = "hello le thi mai";
+        }
+    </script>
+    <h2>le thi mai </h2>
+    <h3>le thi mai </h3>
+    <p id="demo3">le thi mai - 2221050479</p>
+    <button type="button" onclick="mfunc1()">clickme</button>
+    <script>
+        function mfunc1(){
+            document.getElementById('demo3').style.fontSize = "100px";
+            document.getElementById('demo3').style.color = "red";
+            document.getElementById('demo3').style.background = "yellow";
+        }
+    </script>
+
+</body>
+</html>
